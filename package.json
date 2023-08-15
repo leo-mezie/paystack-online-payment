@@ -1,0 +1,26 @@
+{
+  "name": "online_payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.16.4",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

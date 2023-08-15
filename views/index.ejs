@@ -1,0 +1,30 @@
+ <%- include('partials/header') %>
+
+<main>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 container3 text-white p-5">
+            <div class="container4">
+                <h3 class="text-center">Any <span class="spn">Amount</span> Can Go A Long Way</h3>
+                
+                </div>
+                    <div class="container pt-3">
+                        <form action="/paystack/pay" name="myForm" method="POST">
+                            <input type="text" id="name" name="fullName" placeholder="Full Name"><hr>
+                              <input type="email" id="email" name="email" placeholder="email"><hr>
+                                <input type="amount" id="amount" name="amount" placeholder="amount"><hr>
+                                  <input type="text"  id="purpose" name="purpose" placeholder="Purpose of Payment">
+
+                                  <button type="submit" class="btn btn-sm">Proceed</button>
+                            </form>
+                        </div>
+
+        </div>
+
+
+        </div>
+    </main>
+
+
+
+
+  <%- include('partials/footer') %>
